@@ -26,4 +26,13 @@ describe('replace', function() {
       .should
       .eql('[![NPM version](https://img.shields.io/npm/v/mniam.svg)](http://badge.fury.io/js/mniam)');
   });
+
+  it('should replace codeclimate png', function() {
+    replace('[![Code Climate](https://codeclimate.com/github/code42day/liftie.png)](https://codeclimate.com/github/code42day/liftie)')
+      .should
+      .eql('[![Code Climate](https://img.shields.io/codeclimate/github/code42day/liftie.svg)](https://codeclimate.com/github/code42day/liftie)');
+  });
+
+
+
 });
