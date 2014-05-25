@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+
+var shieldify = require('..');
+var filename = process.argv[2] || 'Readme.md';
+
+shieldify(filename);

@@ -1,0 +1,31 @@
+{
+  "name": "shieldify",
+  "version": "0.0.0",
+  "description": "Replace .png badges with .svg badges from shields.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "make check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pirxpilot/shieldify"
+  },
+  "keywords": [
+    "shields",
+    "badges",
+    "svg",
+    "readme"
+  ],
+  "author": "Damian Krzeminski <pirxpilot@code42day.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pirxpilot/shieldify/issues"
+  },
+  "homepage": "https://github.com/pirxpilot/shieldify",
+  "devDependencies": {
+    "make-jshint": "~1",
+    "make-test": "~0",
+    "mocha": "~1",
+    "should": "~3"
+  }
+}
