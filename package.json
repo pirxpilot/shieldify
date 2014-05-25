@@ -8,7 +8,7 @@
     "shieldify": "bin/shieldify"
   },
   "scripts": {
-    "test": "make check"
+    "test": "make"
   },
   "repository": {
     "type": "git",
