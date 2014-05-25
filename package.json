@@ -3,6 +3,10 @@
   "version": "0.0.0",
   "description": "Replace .png badges with .svg badges from shields.io",
   "main": "index.js",
+  "preferGlobal": true,
+  "bin": {
+    "shieldify": "bin/shieldify"
+  },
   "scripts": {
     "test": "make check"
   },
